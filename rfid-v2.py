@@ -19,9 +19,9 @@ UDPSock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 # (to all IP addresses on this system)
 listen_addr = ("",8080)
 UDPSock.bind(listen_addr)
-debugPrint = False
-urlLoadTagsDB = "http://data.sunplusit.com/Api/DoorRFIDInfo?code=83E4621643F7B2E148257244000655E3"
-urlHeadString = "http://data.sunplusit.com/Api/DoorRFIDInfo?code=83E4621643F7B2E148257244000655E3&rfid="
+debugPrint = True
+urlLoadTagsDB = "http://api.sunplusit.com/Api/DoorRFIDInfo?code=83E4621643F7B2E148257244000655E3"
+urlHeadString = "http://api.sunplusit.com/Api/DoorRFIDInfo?code=83E4621643F7B2E148257244000655E3&rfid="
 
 #-----------------------------------------
 #logging記錄
